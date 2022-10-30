@@ -274,10 +274,11 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .contacts-footer:hover{
     color: #2196F3;
