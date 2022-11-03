@@ -27,15 +27,11 @@ p{
     display: block;
 }
 /*reset end*/
-.container{
+.container-header{
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     display: flex;
-}
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    align-items: center;
 }
 body{
     font-family: "Roboto", "Raleway";
@@ -147,8 +143,9 @@ body{
     color: var(--btns-links-color)
 }
 .hero-container{
-    padding-top:  200px;
-    padding-bottom: 200px;
+    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     align-items: center;
     text-align: center;
     display: contents;
@@ -171,9 +168,6 @@ body{
     padding-top:  200px;
 }
 .section-background{
-    width: 1600px;
-    left: 0px;
-    top: 80px;
     background: var(--section-background-color)
 }
 .btn-order{
@@ -191,14 +185,13 @@ body{
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-bottom: 200px;
     background: var(--btns-links-color)
 }
 .container-advantages{
+    width: 1200px;
+    margin: 0 auto;
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 215px;
-    display: flex;
 }
 .advantages{
     font-size: 14px;
@@ -209,6 +202,7 @@ body{
     padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color:var(--article-color)
 }
 .advantages-descr{
@@ -219,6 +213,11 @@ body{
     display: flex;
     justify-content: space-between;
     color: var(--article-descr-color)
+}
+.container-occupation{
+    width: 1200px;
+    margin: 0 auto; 
+    padding-bottom: 94px;
 }
 .occupation{
     font-size: 36px;
@@ -231,6 +230,11 @@ body{
 }
 .section-background-workers{
     background: #F5F4FA;
+}
+.container-team{
+    width: 1200px;
+    margin: 0 auto;    
+    padding-bottom: 94px;
 }
 .team{
     font-size: 36px;
@@ -261,10 +265,13 @@ body{
     padding-bottom: 30px;
     color: var(--article-descr-color)
 }
+.container-footer{
+    width: 1200px;
+    margin: 0 auto; 
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .footer-background{
-    width: 1600px;
-    left: 0px;
-    top: 80px;
     background: var(--section-background-color)
 }
 .list-footer{
@@ -284,8 +291,6 @@ body{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-decoration: none;
     margin-right: auto;
-    padding-top: 60px;
-    padding-bottom: 20px;
 }
 .logo-footer-part{
     font-family: 'Raleway';
@@ -294,13 +299,8 @@ body{
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    margin-right: auto;
     color: #FFFFFF;
-    padding-top: 60px;
-    padding-bottom: 20px;
-}
-.footer-address{
-    padding-top: 94px;
-    padding-bottom: 94px;  
 }
 .adress{
     font-family: 'Roboto';
@@ -313,6 +313,23 @@ body{
     text-decoration: none;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-right: auto;
+}
+.container-portfolio{
+    width: 1200px;
+    margin: 0 auto; 
+    padding-top: 94px;
+    padding-bottom: 94px; 
+}
+.list-portfolio-categories{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    gap: 8px;
 }
 .portfolio-categories{
     font-family: 'Roboto';
@@ -324,9 +341,7 @@ body{
     letter-spacing: 0.03em;
     color: #212121;
     cursor: pointer;
-    padding: 6px 25px;
-    margin-top: 174px;
-    margin-bottom: 50px;
+    padding: 6px 22px;
 }
 .portfolio-categories:hover{
     color: #FFFFFF;
@@ -339,6 +354,30 @@ body{
 .portfolio-categories:active{
     color: #FFFFFF;
     background-color: var(--btns-links-color)
+}
+.container-projects{
+    width: 1200px;
+    margin: 0 auto; 
+    padding-top: 94px;
+    padding-bottom: 94px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+}
+.list-portfolio-projects{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
 }
 .project{
     font-size: 18px;
