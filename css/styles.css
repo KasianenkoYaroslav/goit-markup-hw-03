@@ -365,6 +365,7 @@ body{
     flex-wrap: wrap;
     align-items: stretch;
     align-content: stretch;
+    flex-direction: row;
 }
 .list-portfolio-projects{
     text-decoration: none;
@@ -373,11 +374,9 @@ body{
     padding: 0;
     margin-right: 30px;
     margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: stretch;
-    align-content: stretch;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 3;
 }
 .project{
     font-size: 18px;
