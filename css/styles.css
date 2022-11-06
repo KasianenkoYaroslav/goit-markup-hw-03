@@ -365,17 +365,14 @@ body{
 }
 .container-projects{
     width: 1200px;
-    margin: 0 auto; 
-    padding-top: 94px;
-    padding-bottom: 94px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;  
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
-    align-items: stretch;
-    align-content: stretch;
-    flex-direction: row;
 }
 .list-portfolio-projects{
+    position: relative;
     text-decoration: none;
     list-style: none;
     margin: 0;
