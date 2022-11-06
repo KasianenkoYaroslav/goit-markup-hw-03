@@ -21,7 +21,10 @@ p{
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-left: 93px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .img{
     display: block;
@@ -50,7 +53,6 @@ body{
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-left: 93px;
 }
 .logo{
     font-style: normal;
@@ -189,9 +191,9 @@ body{
 }
 .container-advantages{
     width: 1200px;
-    margin: 0 auto;
-    padding-top: 94px;
-    padding-bottom: 94px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
 }
 .advantages{
     font-size: 14px;
@@ -216,8 +218,9 @@ body{
 }
 .container-occupation{
     width: 1200px;
-    margin: 0 auto; 
-    padding-bottom: 94px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
 }
 .occupation{
     font-size: 36px;
@@ -233,8 +236,9 @@ body{
 }
 .container-team{
     width: 1200px;
-    margin: 0 auto;    
-    padding-bottom: 94px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
 }
 .team{
     font-size: 36px;
@@ -267,9 +271,11 @@ body{
 }
 .container-footer{
     width: 1200px;
-    margin: 0 auto; 
-    padding-top: 94px;
-    padding-bottom: 94px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-background{
     background: var(--section-background-color)
@@ -278,7 +284,9 @@ body{
     text-decoration: none;
     list-style: none;
     margin: 0;
-    padding: 0;   
+    padding: 0; 
+    padding-top: 10px;
+    padding-bottom: 10px;  
 }
 .logo-footer{
     font-family: 'Raleway';
@@ -317,9 +325,9 @@ body{
 }
 .container-portfolio{
     width: 1200px;
-    margin: 0 auto; 
-    padding-top: 94px;
-    padding-bottom: 94px; 
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto; 
 }
 .list-portfolio-categories{
     text-decoration: none;
