@@ -350,6 +350,7 @@ body{
     color: #212121;
     cursor: pointer;
     padding: 6px 22px;
+    margin-bottom: 50px;
 }
 .portfolio-categories:hover{
     color: #FFFFFF;
@@ -368,17 +369,15 @@ body{
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;  
-    display: flex;
-    flex-wrap: wrap;
 }
 .list-portfolio-projects{
-    position: relative;
     text-decoration: none;
     list-style: none;
     margin: 0;
-    padding: 0;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-basis: calc((100%-60px) / 3 );
 }
 .project{
     font-size: 18px;
@@ -390,6 +389,9 @@ body{
     padding-right: 24px;
     padding-bottom: 4px;
     color: var(--article-color) 
+}
+.project-item{
+    flex-basis: calc((100%-60px) / 3 );
 }
 .portfolio-categories-item{
     font-size: 16px;
