@@ -8,6 +8,7 @@ h5,
 ul,
 p{
     margin: 0;
+    padding-left: 0;
 }
 .link{
     text-decoration: none;
@@ -247,7 +248,6 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 .name{
@@ -325,8 +325,6 @@ body{
 }
 .container-portfolio{
     width: 1200px;
-	padding-left: 15px;
-	padding-right: 15px;
 	margin: 0 auto; 
 }
 .list-portfolio-categories{
@@ -338,6 +336,10 @@ body{
     align-items: center;
     margin-left: 300px;
     gap: 8px;
+}
+.portfolio-filter{
+border-top: none;
+border: 1px solid #EEEEEE;
 }
 .portfolio-categories{
     font-family: 'Roboto';
@@ -366,18 +368,16 @@ body{
 }
 .container-projects{
     width: 1200px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin: 0 auto;  
+	margin: 0 auto;
 }
 .list-portfolio-projects{
     text-decoration: none;
     list-style: none;
     margin: 0;
     display: flex;
+    align-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    flex-basis: calc((100%-60px) / 3 );
 }
 .project{
     font-size: 18px;
@@ -391,7 +391,7 @@ body{
     color: var(--article-color) 
 }
 .project-item{
-    flex-basis: calc((100%-60px) / 3 );
+   flex-basis: calc((100% - 60px) / 3);
 }
 .portfolio-categories-item{
     font-size: 16px;
