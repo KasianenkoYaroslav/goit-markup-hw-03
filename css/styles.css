@@ -145,6 +145,10 @@ body{
 .contacts:active{
     color: var(--btns-links-color)
 }
+.hero-section{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 .hero-container{
     width: 1200px;
     padding-top: 94px;
@@ -157,7 +161,6 @@ body{
     font-size: 44px;
     width: 696px;
     margin: 0 auto;
-    left: 452px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
@@ -168,7 +171,6 @@ body{
     background-color: transparent;
     display: flex;
     align-items: center;
-    padding-top:  200px;
 }
 .section-background{
     background: var(--section-background-color)
