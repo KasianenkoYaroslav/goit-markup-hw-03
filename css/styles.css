@@ -360,6 +360,7 @@ body{
 }
 .portfolio-filter{
     border: 1px solid #EEEEEE;
+    margin-right: 10px;
 }
 .portfolio-categories{
     font-family: 'Roboto';
