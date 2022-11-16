@@ -27,7 +27,7 @@ p{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.img{
+img{
     display: block;
 }
 /*reset end*/
@@ -36,6 +36,8 @@ p{
     margin: 0 auto;
     display: flex;
     align-items: center;
+}
+.header-border-bottom{
     border-bottom: 1px solid #ECECEC;
 }
 body{
@@ -256,6 +258,15 @@ body{
 	padding-right: 15px;
 	margin: 0 auto;
 }
+.list-team{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .team-workers{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -346,6 +357,8 @@ body{
 .container-portfolio{
     width: 1200px;
 	margin: 0 auto; 
+    padding-left: 15px;
+	padding-right: 15px;
 }
 .list-portfolio-categories{
     text-decoration: none;
@@ -360,7 +373,6 @@ body{
 }
 .portfolio-filter{
     border: 1px solid #EEEEEE;
-    margin-right: 10px;
 }
 .portfolio-categories{
     font-family: 'Roboto';
@@ -385,6 +397,9 @@ body{
 .portfolio-categories:active{
     color: #FFFFFF;
     background-color: var(--btns-links-color)
+}
+.header-portfolio-border{
+    border-bottom: 1px solid #ECECEC;;
 }
 .container-projects{
     width: 1200px;
