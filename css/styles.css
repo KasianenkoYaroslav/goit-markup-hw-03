@@ -218,9 +218,12 @@ body{
 }
 .advantages-descr{
     font-size: 14px;
+    width: 270px;
+    height: 48px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    
     display: flex;
     justify-content: space-between;
     color: var(--article-descr-color)
@@ -305,10 +308,10 @@ body{
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 .footer-background{
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: var(--section-background-color)
 }
 .list-footer{
@@ -316,8 +319,13 @@ body{
     list-style: none;
     margin: 0;
     padding: 0; 
-    margin-top: 10px;
-    margin-bottom: 10px;  
+}
+.link-footer-adress{
+    margin-top: 28px;
+    margin-bottom: 12px;
+}
+.link-footer{
+    margin-bottom: 12px;
 }
 .logo-footer{
     font-family: 'Raleway';
@@ -339,6 +347,7 @@ body{
     line-height: 31px;
     letter-spacing: 0.03em;
     margin-right: auto;
+    margin-bottom: 28px;
     color: #FFFFFF;
 }
 .adress{
@@ -350,8 +359,8 @@ body{
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 28px;
+    margin-bottom: 12px;
     margin-right: auto;
 }
 .container-portfolio{
@@ -373,6 +382,8 @@ body{
 }
 .portfolio-filter{
     border: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .portfolio-categories{
     font-family: 'Roboto';
@@ -421,7 +432,6 @@ body{
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 4px;
@@ -437,7 +447,6 @@ body{
     letter-spacing: 0.03em;
     margin-left: 24px;
     margin-right: 24px;
-    margin-bottom: 20px;
     color: var(--article-descr-color)
 }
 .contacts-footer{
@@ -449,8 +458,6 @@ body{
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 .contacts-footer:hover{
     color: #2196F3;
